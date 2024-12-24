@@ -7,7 +7,7 @@ export default {
   output: {
     file: 'public/bundle.js',
     format: 'esm',
-    // name: 'SvelteBuiltIn' // 这里替换为你的库名称
+    // name: 'SvelteBuiltIn'
   },
   plugins: [
     svelte({
@@ -27,7 +27,6 @@ export default {
       // },
 
       // Emit CSS as "files" for other plugins to process. default is true
-      // 为真，在svelte中使用<style>标签将会构建错误
       emitCss: false,
 
       // Warnings are normally passed straight to Rollup. You can
